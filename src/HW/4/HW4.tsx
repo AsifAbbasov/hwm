@@ -21,9 +21,9 @@ export const HW4 = () => {
     <div id={'hw04'}>
       {/* Заголовок: если есть вводимый текст — показываем его, иначе заглушка */}
       {currentText ? (
-        <h1 id={'hw03-text'}>{currentText}</h1>
+        <h1 id={'hw04-text'}>{currentText}</h1>
       ) : (
-        <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1>
+        <h1 id={'hw04-default-text'}>Здесь появится новое дело</h1>
       )}
 
       {/* Компонент Input */}
